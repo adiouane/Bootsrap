@@ -4,6 +4,7 @@ html{
 }
 #title{
     background-color: #ff4c68;
+    height: 65vh;
 }
 
 #tsparticles {
@@ -11,12 +12,43 @@ html{
     width: 100%;
     height: 100%;
     top: 0;
-    left: 0;
+    left: 0;  
     margin: 0;
 }
-.container-fluid{
-    padding: 0 0 0 5%;
-    margin-left: 200px;
+#features{
+    /* padding: 7% 15%; */
+    background-color: #fff;
+    /* position: relative; */
+    /* z-index: 1; */
+    height: 35vh;
+}
+
+.img{
+    transform: rotate(20deg);
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 300px;
+    /* position: absolute; */
+}
+
+/* .container-fluid{
+
+} */
+
+nav .navbar-brand{
+    font-size: 2.5rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+}
+
+nav .navbar-nav{
+    margin-left: 100vh;
+}
+
+.nav-link{
+    color: #4a4344 !important;
+    font-size: smaller !important;
 }
 
 h1, h2{ 
@@ -33,9 +65,7 @@ h1, h2{
  
 }
 .jm3{
-    margin:auto;
     margin-left: 100px;
-    margin-top: 150px;
 }
 
 .nav-item{
@@ -44,26 +74,18 @@ h1, h2{
     font-weight: bold;
     font-size: 1.5rem;
     font-family: 'ubuntu', sans-serif;
+    position: relative;
+    display: end;
 }
-/* .nav{
-    display: flex;
-    justify-content: space-between;
-} */
+
 .btn {
     margin-top: 50px;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-bottom: 100px;;
 }
 
 .move {
     margin: 0 0 0 1200px;
-}
-
-
-
-.img{
-    transform: rotate(20deg);
-    margin-top: 100px;
-    margin-left: 100px;
 }
 
 .fa-brands fa-google-play{
@@ -102,6 +124,7 @@ p{
 
 .plan{
     margin-top: 50px;
+    margin-left: 50px;
 }
 
 #testimonials{
@@ -112,7 +135,7 @@ p{
 }
 
 .dog{
-    width: 10%;
+    width: 15%;
     border-radius: 100%;
     margin: 0 3%;
     margin-top: 80px;
@@ -157,6 +180,7 @@ em{
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 10px;
+    height: 35vh;
 }
 
 .btn2{
@@ -172,9 +196,378 @@ em{
     transition: 0.3s;
     margin-bottom: 50px;
     margin-top: 50px;
+    height: 10vh;
+    /* width: 100%; */
     /* background-color: aqua; */
 }
 
 .card:hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center ;
+    padding: 1% 20%;
+    color: white;
+    height: 40vh;
+}
+.foter-txt{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer{
+    background-color: white;
+    text-align: center ;
+    padding: 1% 20%;
+    color: white;
+    height: 10vh;
+}
+
+#footer p{
+    color: rgb(186, 186, 186);
+    font-size: 1rem;
+}
+
+.media-icon{
+    margin: 0 10px;
+    color: balck;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    cursor: pointer;
+}
+.media-icon i{
+    margin: 0 10px;
+}
+.media-icon i:hover{
+    color: #ff4c68;
+}
+
+/* nav*/
+
+@media (max-width: 2600px) { 
+    nav .navbar-nav{
+        margin-left: 90vh;
+    }
+    .img{
+        transform: rotate(20deg);
+        width: 28%;
+        margin-top: 10%;
+        /* position: absolute; */
+    }
+    .jm3{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 2400px) { 
+    nav .navbar-nav{
+        margin-left: 90vh;
+    }
+    .img{
+        transform: rotate(20deg);
+        width: 28%;
+        margin-top: 10%;
+        /* position: absolute; */
+    }
+    .jm3{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 2200px) { 
+    nav .navbar-nav{
+        margin-left: 80vh;
+    }
+    .img{
+        transform: rotate(20deg);
+        width: 28%;
+        margin-top: 10%;
+        /* position: absolute; */
+    }
+    .jm3{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 2100px) { 
+
+    nav .navbar-nav{
+        margin-left: 70vh;
+    }
+    .img{
+        transform: rotate(20deg);
+        width: 40%;
+        margin-top: 10%;
+        /* position: absolute; */
+    }
+    .jm3{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 2000px) { 
+
+    nav .navbar-nav{
+        margin-left: 65vh;
+    }
+    .img{
+        transform: rotate(20deg);
+        width: 40%;
+        margin-top: 10%;
+        /* position: absolute; */
+    }
+    .jm3{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 1900px) { 
+
+    nav .navbar-nav{
+        margin-left: 50vh;
+    }
+    .img{
+        transform: rotate(20deg);
+        width: 40%;
+        margin-top: 10%;
+        /* position: absolute; */
+    }
+    .jm3{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 1718px) { 
+
+    nav .navbar-nav{
+        margin-left: 45vh;
+    }
+    .img{
+        transform: rotate(20deg);
+        width: 40%;
+        margin-top: 10%;
+        /* position: absolute; */
+    }
+    .jm3{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 1600px) { 
+
+    nav .navbar-nav{
+        margin-left: 40vh;
+    }
+    .img{
+        transform: rotate(20deg);
+        width: 40%;
+        margin-top: 10%;
+        /* position: absolute; */
+    }
+    .jm3{
+        margin-left: 100px;
+    }
+}
+
+
+@media (max-width: 1500px) { 
+
+    nav .navbar-nav{
+        margin-left: 30vh;
+    }
+    .img{
+        transform: rotate(20deg);
+        width: 40%;
+        margin-top: 10%;
+        /* position: absolute; */
+    }
+    .jm3{
+        margin-left: 100px;
+    }
+}
+
+
+@media (max-width: 1400px) { 
+
+    nav .navbar-nav{
+        margin-left: 28vh;
+    }
+    .img{
+        transform: rotate(20deg);
+        width: 50%;
+        margin-top: 10%;
+        margin-left: 100px;
+        /* position: absolute; */
+    }
+    .jm3{
+        margin-left: 100px;
+    }
+}
+
+
+@media (max-width: 1300px) { 
+
+    nav .navbar-nav{
+        margin-left: 20vh;
+    }
+    .img{
+        transform: rotate(20deg);
+        width: 50%;
+        margin-top: 10%;
+        margin-right: 100px;
+        /* position: absolute; */
+    }
+    .jm3{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 1180px) { 
+
+    nav .navbar-nav{
+        margin-left: 8vh;
+    }
+    .img{
+        transform: rotate(20deg);
+        width: 50%;
+        margin-top: 10%;
+        /* position: absolute; */
+    }
+    .jm3{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 1170px) { 
+
+    nav .navbar-nav{
+        margin-left: 8vh;
+    }
+    .img{
+        transform: rotate(0);
+        width: 60%;
+        margin-top: 10%;
+        /* position: absolute; */
+    }
+    .jm3{
+        margin-left: 100px;
+    }
+
+}
+
+@media (max-width: 1120px) { 
+
+    nav .navbar-nav{
+        margin-left: 8vh;
+    }
+    .img{
+        transform: rotate(0);
+        width: 60%;
+        }
+    .jm3{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 990px) { 
+
+    nav .navbar-nav{
+        margin-left: 8vh;
+    }
+    .img{
+        transform: rotate(0);
+        width: 50%;
+        margin: 50px 250px 50px;
+        position: absolute;
+        z-index: -1;
+    }
+    .meet{
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: center;
+    }
+    .jm3{
+        margin-left: 250px;
+    }
+
+    #pricing{
+        height: 90vh;
+    }
+    .Download-btn2{
+        margin-top: 0;
+    }
+}
+@media (max-width: 790px) { 
+
+    .img{
+        transform: rotate(0);
+        width: 50%;
+        margin: 50px 150px 50px;
+    }
+    .card{
+        margin: 0 10px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        height: 100%;
+        width: 100%;
+    /* background-color: aqua; */
+}
+    .jm3{
+        margin-left: 150px;
+    }
+
+}
+@media (max-width: 600px) { 
+
+    .card{
+        margin: 0 15px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        height: 150%;
+        width: 150%;
+    /* background-color: aqua; */
+}
+    #pricing{
+        height: 100vh;
+    }
+    .foter-txt{
+        margin-top: 100px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+}
+@media (max-width: 560px) { 
+
+    .card{
+        margin: 0 15px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        height: 150%;
+        width: 150%;
+    }
 }
